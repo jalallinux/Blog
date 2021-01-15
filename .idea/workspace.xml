@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3620584b-121e-4f65-820e-5e7aae33f1e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610725405922</updated>
       <workItem from="1610725407941" duration="52000" />
-      <workItem from="1610725467831" duration="8411000" />
+      <workItem from="1610725467831" duration="9202000" />
     </task>
     <servers />
   </component>
