@@ -24,5 +24,8 @@ Route::group(['middleware' => 'api', 'prefix' => 'auth'], function () {
 
 });
 
+Route::apiResource('category', 'CategoryController');
+
+
 
 
