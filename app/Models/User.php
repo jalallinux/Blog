@@ -21,6 +21,11 @@ class User extends Authenticatable implements JWTSubject
         return $this->hasMany(Post::class);
     }
 
+    public function comments(): HasMany
+    {
+        return $this->hasMany(Comment::class);
+    }
+
     public function setPasswordAttribute($value)
     {
         $this->attributes['password'] = !is_null($value) ? bcrypt($value) : null;

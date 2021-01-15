@@ -19,9 +19,9 @@ class Post extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function replies(): HasMany
+    public function comments(): HasMany
     {
-        return $this->hasMany(Reply::class);
+        return $this->hasMany(Comment::class);
     }
 
     public function category(): BelongsTo

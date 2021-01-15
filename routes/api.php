@@ -28,5 +28,5 @@ Route::apiResource('category', 'CategoryController');
 
 Route::apiResource('post', 'PostController');
 
-
+Route::apiResource('comment', 'CommentController');
 

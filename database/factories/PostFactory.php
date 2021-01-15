@@ -25,7 +25,7 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->sentence,
+            'title' => $this->faker->sentence(5),
             'body'  => $this->faker->randomHtml(),
             'cover'  => $this->faker->imageUrl(),
             'caption'  => $this->faker->realText(),
