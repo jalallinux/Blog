@@ -18,16 +18,14 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         User::factory()->create([
-            [
-                'name' => 'سید محمد جواد',
-                'family' => 'جلال زاده',
-                'email' => 'smjjalalzadeh93@gmail.com'
-            ],
-            [
-                'name' => 'سمیر',
-                'family' => 'سبیعی',
-                'email' => 'samirsabiee@gmail.com'
-            ]
+            'name' => 'سید محمد جواد',
+            'family' => 'جلال زاده',
+            'email' => 'smjjalalzadeh93@gmail.com'
+        ]);
+        User::factory()->create([
+            'name' => 'سمیر',
+            'family' => 'سبیعی',
+            'email' => 'samirsabiee@gmail.com'
         ]);
 
         User::factory(28)->create();
