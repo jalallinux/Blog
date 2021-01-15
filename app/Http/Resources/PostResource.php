@@ -21,6 +21,7 @@ class PostResource extends JsonResource
             'slug' => $this->slug,
             'caption' => $this->caption,
             'body' => $this->body,
+            'cover' => $this->cover,
             'category' => $this->category->name,
             'user' => new UserResource($this->user),
             'comment_count' => $this->comments()->count(),
