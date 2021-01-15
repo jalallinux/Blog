@@ -1,10 +1,7 @@
 <?php
 
 return [
-    'update' => [
-        'success' => ':attribute با موفقیت بروزرسانی شد.',
-        'failed' => ':attribute بروزرسانی نشد.',
-    ],
+    'forbidden' => 'شما دسترسی برای انجام این عملیات ندارید.',
     'delete' => [
         'success' => ':attribute با موفقیت حذف شد.',
         'failed' => ':attribute حذف نشد.',

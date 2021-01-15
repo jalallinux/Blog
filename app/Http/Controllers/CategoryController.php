@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use App\Http\Resources\CategoryResource;
 use Illuminate\Http\Response;
@@ -57,30 +58,26 @@ class CategoryController extends Controller
      *
      * @param Request $request
      * @param Category $category
-     * @return Response
+     * @return CategoryResource
      */
-    public function update(Request $request, Category $category): Response
+    public function update(Request $request, Category $category): CategoryResource
     {
         $category->slug = null;
         $category->update($request->all());
-        return response([
-            'message' => __('crud.update.success', [
-                'attribute' => __('validation.attributes.category')
-            ])
-        ]);
+        return new CategoryResource($category);
     }
 
     /**
      * Remove the specified resource from storage.
      *
      * @param Category $category
-     * @return Response
+     * @return JsonResponse
      * @throws Exception
      */
-    public function destroy(Category $category): Response
+    public function destroy(Category $category): JsonResponse
     {
         $category->delete();
-        return response([
+        return response()->json([
             'message' => __('crud.delete.success', [
                 'attribute' => __('validation.attributes.category')
             ])

@@ -118,10 +118,6 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute format is invalid.',
     'uuid' => 'The :attribute must be a valid UUID.',
-    'favorited' => 'Discussion added to your favorite list.',
-    'dis_favorited' => 'Discussion removed from your favorite list.',
-    'pointed' => 'Your point has been saved.',
-    'dis_pointed' => 'Your point has been removed.',
 
     /*
     |--------------------------------------------------------------------------
