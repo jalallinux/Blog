@@ -6,38 +6,42 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class User extends Authenticatable
+class User extends Authenticatable implements JWTSubject
 {
     use HasFactory, Notifiable;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
-    ];
+    protected $fillable = ['name', 'family', 'email', 'password'];
+    protected $hidden = ['password'];
 
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = !is_null($value) ? bcrypt($value) : null;
+    }
 
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+    public function getRolesAttribute(): array
+    {
+        return ['admin', 'super-admin'];
+    }
+
+    public function getAvatarAttribute(): string
+    {
+        return 'https://www.gravatar.com/avatar/' . md5($this->attributes['email']) . '.jpg?d=mp&r=g&s=128';
+    }
+
+    public function getFullNameAttribute(): string
+    {
+        return $this->name . ' ' . $this->family;
+    }
+
+    public function getJWTIdentifier()
+    {
+        return $this->getKey();
+    }
+
+    public function getJWTCustomClaims(): array
+    {
+        return [];
+    }
 }
