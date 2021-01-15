@@ -30,7 +30,7 @@ class CommentController extends Controller
     public function index(Request $request): AnonymousResourceCollection
     {
         $post = Post::query()->where('slug', $request->input('post'))->firstOrFail();
-        $comments = $post->comments()->latest()->paginate();
+        $comments = $post->comments()->latest()->paginate(20);
         return CommentResource::collection($comments);
     }
 
