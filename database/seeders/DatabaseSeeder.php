@@ -18,12 +18,19 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         User::factory()->create([
-            'name' => 'سید محمد جواد',
-            'family' => 'جلال زاده',
-            'email' => 'smjjalalzadeh93@gmail.com'
+            [
+                'name' => 'سید محمد جواد',
+                'family' => 'جلال زاده',
+                'email' => 'smjjalalzadeh93@gmail.com'
+            ],
+            [
+                'name' => 'سمیر',
+                'family' => 'سبیعی',
+                'email' => 'samirsabiee@gmail.com'
+            ]
         ]);
 
-        User::factory(29)->create();
+        User::factory(28)->create();
         Category::factory()->count(20)->create();
         Post::factory()->count(200)->create();
         Comment::factory()->count(3000)->create();
