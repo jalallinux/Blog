@@ -26,10 +26,10 @@ class CommentFactory extends Factory
         return [
             'body'  => $this->faker->realText(),
             'post_id' => function() {
-                return Post::all()->random();
+                return random_int(1, Post::count());
             },
             'user_id' => function() {
-                return User::all()->random();
+                return random_int(1, User::count());
             },
             'created_at' => $this->faker->dateTimeBetween('-10 hours')
         ];

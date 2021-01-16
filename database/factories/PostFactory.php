@@ -30,10 +30,10 @@ class PostFactory extends Factory
             'cover'  => 'https://picsum.photos/300/200?random=' . $this->faker->numberBetween(1, 10000),
             'caption'  => $this->faker->realText(),
             'category_id' => function () {
-                return Category::all()->random();
+                return random_int(1, Category::count());
             },
             'user_id' => function () {
-                return User::all()->random();
+                return random_int(1, User::count());
             },
             'created_at' => $this->faker->dateTimeBetween('-10 hours')
         ];
