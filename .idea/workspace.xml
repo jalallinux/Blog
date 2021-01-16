@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3620584b-121e-4f65-820e-5e7aae33f1e0" name="Default Changelist" comment="">
+    <list default="true" id="3620584b-121e-4f65-820e-5e7aae33f1e0" name="Default Changelist" comment="ec">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,8 +185,52 @@
       <option name="presentableId" value="Default" />
       <updated>1610725405922</updated>
       <workItem from="1610725407941" duration="52000" />
-      <workItem from="1610725467831" duration="9821000" />
+      <workItem from="1610725467831" duration="11961000" />
+      <workItem from="1610740874409" duration="9321000" />
     </task>
+    <task id="LOCAL-00001" summary="fix user avatar">
+      <created>1610738776588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610738776588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="set paginate size to 20">
+      <created>1610739322819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610739322819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add samir to seeder">
+      <created>1610747399889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610747399889</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix seeder">
+      <created>1610747618887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610747618887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update kernel for CORS-Origin">
+      <created>1610780481448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610780481448</updated>
+    </task>
+    <task id="LOCAL-00006" summary="except verify token from api/*">
+      <created>1610780617975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610780617975</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,5 +238,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix user avatar" />
+    <MESSAGE value="set paginate size to 20" />
+    <MESSAGE value="add samir to seeder" />
+    <MESSAGE value="fix seeder" />
+    <MESSAGE value="update kernel for CORS-Origin" />
+    <MESSAGE value="except verify token from api/*" />
+    <option name="LAST_COMMIT_MESSAGE" value="except verify token from api/*" />
   </component>
 </project>
