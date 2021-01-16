@@ -31,6 +31,9 @@ class PostController extends Controller
      */
     public function index(Request $request): AnonymousResourceCollection
     {
+        if (!$request->input('category'))
+            return PostResource::collection(Post::latest()->paginate(20));
+
         $category = Category::where('slug', $request->input('category'))->firstOrFail();
         $posts = $category->posts()->latest()->paginate(20);
         return PostResource::collection($posts);

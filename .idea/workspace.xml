@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3620584b-121e-4f65-820e-5e7aae33f1e0" name="Default Changelist" comment="ec">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,7 @@
       <updated>1610725405922</updated>
       <workItem from="1610725407941" duration="52000" />
       <workItem from="1610725467831" duration="11961000" />
-      <workItem from="1610740874409" duration="10288000" />
+      <workItem from="1610740874409" duration="11485000" />
     </task>
     <task id="LOCAL-00001" summary="fix user avatar">
       <created>1610738776588</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610780617975</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix bug. return error for mistake category">
+      <created>1610793927104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610793927104</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +251,7 @@
     <MESSAGE value="fix seeder" />
     <MESSAGE value="update kernel for CORS-Origin" />
     <MESSAGE value="except verify token from api/*" />
-    <option name="LAST_COMMIT_MESSAGE" value="except verify token from api/*" />
+    <MESSAGE value="fix bug. return error for mistake category" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug. return error for mistake category" />
   </component>
 </project>
