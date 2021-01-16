@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
 
         User::factory(28)->create();
         Category::factory()->count(20)->create();
-        Post::factory()->count(200)->create();
+        Post::factory()->count(1000)->create();
         Comment::factory()->count(3000)->create();
     }
 }
