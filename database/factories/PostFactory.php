@@ -27,7 +27,7 @@ class PostFactory extends Factory
         return [
             'title' => $this->faker->sentence(5),
             'body'  => $this->faker->randomHtml(),
-            'cover'  => $this->faker->imageUrl(),
+            'cover'  => 'https://picsum.photos/300/200?random=' . $this->faker->numberBetween(1, 10000),
             'caption'  => $this->faker->realText(),
             'category_id' => function () {
                 return Category::all()->random();
