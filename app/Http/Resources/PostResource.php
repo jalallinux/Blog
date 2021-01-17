@@ -22,7 +22,7 @@ class PostResource extends JsonResource
             'caption' => $this->caption,
             'body' => $this->body,
             'cover' => $this->cover,
-            'category' => $this->category->name,
+            'category' => new CategoryResource($this->category),
             'user' => new UserResource($this->user),
             'comment_count' => $this->comments()->count(),
             'created_at' => $this->created_at->diffForHumans(),
