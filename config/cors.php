@@ -32,8 +32,15 @@ return [
      * Matches the request origin. `['*']` allows all origins. Wildcards can be used, eg `*.mydomain.com`
      */
     'allowed_origins' => [
+
+        'http://localhost:3000',
+
+        'http://blog.x4d.ir',
         'https://blog.x4d.ir',
-        'http://localhost:3000'
+
+        'http://blog.bflame.ir',
+        'https://blog.bflame.ir',
+
     ],
 
     /*
