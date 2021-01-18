@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3620584b-121e-4f65-820e-5e7aae33f1e0" name="Default Changelist" comment="ec">
-      <change afterPath="$PROJECT_DIR$/.nuxt/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-build-indicator.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-child.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-link.server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-loading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/empty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/nuxt-izitoast.plugin.d16ce506.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/plugins.plugin.46b4d2a0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/pwa/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/pwa/meta.plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/pwa/meta.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/router.scrollBehavior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/vetur/tags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/views/app.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/vuetify/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/vuetify/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/workbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SpaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +187,7 @@
       <updated>1610725405922</updated>
       <workItem from="1610725407941" duration="52000" />
       <workItem from="1610725467831" duration="11961000" />
-      <workItem from="1610740874409" duration="20613000" />
+      <workItem from="1610740874409" duration="20918000" />
     </task>
     <task id="LOCAL-00001" summary="fix user avatar">
       <created>1610738776588</created>
