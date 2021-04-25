@@ -22,4 +22,4 @@ $ php artisan migrate:fresh --seed
 ### API
 Postman collection exists root of project. you can import this in your postman and test this.
 
-#### Create this for Trainee  application with [Samir](https://github.com/samsab1995)
+#### Create this for Trainee  application with [Samir](https://github.com/samsab1995) ❤️
